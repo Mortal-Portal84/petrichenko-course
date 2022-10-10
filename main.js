@@ -10,7 +10,7 @@ const startQuiz = () => {
   }
 };
 
-// startQuiz();
+startQuiz();
 
 const personalMovieDB = {
   count: numberOfFilms,
@@ -31,7 +31,7 @@ const rememberMyFilms = () => {
   }
 };
 
-// rememberMyFilms();
+rememberMyFilms();
 
 const detectPersonalLevel = () => {
   if (personalMovieDB['count'] >= 30) {
@@ -45,7 +45,7 @@ const detectPersonalLevel = () => {
   }
 };
 
-// detectPersonalLevel();
+detectPersonalLevel();
 
 const showMyDB = () => {
   if (!personalMovieDB['private']) {
